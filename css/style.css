@@ -284,7 +284,7 @@ ul.products li img {
 
 .product-name {
   color: rgb(255, 0, 0);
-  padding: 6px 0px;
+  padding: 3px 0px;
   font-weight: 800;
   font-size: 130%;
 }
@@ -308,7 +308,9 @@ ul.products li .product-top {
 }
 
 .buy-now {
-  display: none;
+  display: inline-block;
+  position: absolute;
+  transform: translate(0,1050%);
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
@@ -319,8 +321,7 @@ ul.products li .product-top {
   width: 200px;
   background-color: #cc0000;
   color: white;
-  transition: 0.5 zone;
-  animation: animation-slide 3s slide;
+  transition: all 0.3s;
 }
 
 .buy-now::after {
@@ -332,12 +333,39 @@ ul.products li .product-top {
   height: 200px;
   border-radius: 100%;
   margin: -100px -135px;
+
 }
 
 ul.products li:hover a.buy-now {
-  display: inline-block;
+  transform: translate(0,0);
+  opacity: 1;
 }
 
+.logo-Automaker {
+  display: flex;
+  flex-basis: 33%;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 1170px;
+}
+.logo-Automaker ul{
+  height: 10px;
+}
+.logo-Automaker li{
+  list-style: none;
+  padding: 40px 55px;
+  width: 350px;
+  border: 1px solid rgba(135, 134, 134,0.3);
+}
+.logo-Automaker img{
+  width: 250px;
+  filter: grayscale(100%);
+}
+.logo-Automaker li:hover img{
+  filter: grayscale(0%);
+}
 
 /*-----------------------------------*/
 /*------------FOOTER-----------------*/
