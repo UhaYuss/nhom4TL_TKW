@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="./css/style-index.css">
+  <!-- header-footer -->
+  <link rel="icon" href="./img/icon/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Squada+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/head-footer.css">
+  <title>Trang chủ</title>
+</head>
+
+<body>
+  <div id="wraper">
+    <header>
+      <div class="inner-header">
+        <span href="./index.html" id="logo">FTL Motors</span>
+        <nav>
+          <ul id="main-menu">
+            <li><a href="./index.html" title="Trang chủ">Trang chủ</a></li>
+            <li><a href="./contact.html" title="Kết nối với chúng tôi">Kết nối với chúng tôi</a></li>
+            <li><a href="./product.html" title="Kết nối với chúng tôi">Sản phẩm</a></li>
+            <li><a href="./general.html" title="Tin tức">Tin tức</a>
+              <ul class="sub-menu">
+                <li><a href="">Tin tức chung</a></li>
+                <li><a href="">Tin xe máy</a></li>
+                <li><a href="">Tin khác</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="./contact.html" title="Liên hệ">Liên hệ</a>
+              <ul class="sub-menu">
+                <li><a href="./index.html"><i class="fa-solid fa-house"></i>FTL motor</a></li>
+                <li><a href=""><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+                <li><a href=""><i class="fa-brands fa-square-instagram"></i>Instagram</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </div>
+  <div class="banner swiper mySwiper">
+    <div class="container-banner">
+      <div class="list-banner swiper-wrapper">
+        <div class="item-banner swiper-slide"><img src="./img/banner/banner_1.jpg" alt="banner"></div>
+        <div class="item-banner swiper-slide"><img src="./img/banner/banner_2.jpg" alt="banner"></div>
+        <div class="item-banner swiper-slide"><img src="./img/banner/rebel_banner.jpg" alt="banner"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+  <div id="body-container">
+    
+    <h2>Lựa chọn <br> Phong cách riêng của bạn</h2>
+    <div class="search-bar">
+      <input type="text" placeholder="Tìm kiếm sản phẩm" id="timkiem">
+      <button type="submit">Tìm</button>
+    </div>
+    <ul class="products" title="Sản phâm">
+    </ul>
+  </div>
+  <div id="backtop">
+    <i class="fa-solid fa-arrow-up fa-bounce" style="color: #ffffff;"></i>
+  </div>
+  <div class="footer">
+    <div class="footer-nav">
+      <div class="footer-nav-col">
+        <p class="text-form"> Công ty TKW Gruop 4 </p>
+        <p class="text-content">
+          Số GCNĐKDN: 2500150543 <br>
+          Đăng ký lần đầu: Ngày 5/5/2023 <br>
+          Cơ quan cấp: Phòng A208 <br> Trường Công Nghiệp Thực Phẩm (HUFI)<br> Ho Chi Minh <br>
+          Địa chỉ: 140 Lê Trọng Tấn,P.Tây Thạnh <br> Q.Tân Phú, Ho Chi Minh Việt Nam <br>
+        </p>
+        <img class="copyright" src="./img/banner/copyright.png" alt="copyright">
+      </div>
+      <div class="footer-nav-col">
+        <form class="form" action="">
+          <p class="text-form"> Đăng ký nhận tin </p>
+          <input type="text" name="hoten" id="" placeholder="Họ tên"> <br>
+          <input type="email" name="email" id="" placeholder="Email"> <br>
+          <input type="text" name="sdt" id="" placeholder="SĐT"> <br>
+          <div class="select">
+            <select name="format" id="format">
+              <option selected disabled>Đăng ký nhận tin</option>
+              <option value="news">Tin tức xe máy</option>
+              <option value="sales">Khuyến mãi</option>
+              <option value="more">Tin tức khác</option>
+            </select> <br>
+          </div>
+          <input type="submit" value="Đăng ký">
+        </form>
+      </div>
+      <div class="footer-nav-col">
+        <p class="text-form">ĐƯỜNG DÂY NÓNG </p>
+        <p class="text-content">
+          Hotline: <a href="#" class="info">1800 8001</a> (Miễn phí cho tất cả thuê bao) <br>
+          Email: <a href="#" class="info">lakhavan@gmail.com.vn</a>
+        </p>
+      </div>
+    </div>
+    <div class="end-footer">
+      &copy; 2019 Copyright by TKW Gruop 4 | <a href="" class="copy-right">Terms and Conditions</a> | <a href=""
+        class="copy-right">Privacy Policy</a> | <a href="" class="copy-right">Cookie Policy</a>
+    </div>
+  </div>
+</body>
+
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js"></script>
+<script src="./js/data.js"></script>
+<script src="./js/search.js"></script>
+<script src="./js/head-footer.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.2/swiper-bundle.min.js"></script>
+<script src="./js/banner.js"></script>
