@@ -271,11 +271,12 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
 .swiper-button-prev {
   position: absolute;
   top: var(--swiper-navigation-top-offset, 0%);
-  width:110px;
-  height: 98%;
-  margin: 0 -20px;
-  margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
-  background-color: rgba(214, 223, 223,0.7);
+  border-radius: 360px;
+  width:60px;
+  height: 12%;
+  margin: 0 5px;
+  margin-top: calc(200px - (var(--swiper-navigation-size)/2));
+  background-color: rgba(255, 255, 255);
   z-index: 10;
   cursor: pointer;
   display: flex;
@@ -360,7 +361,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
-  bottom: var(--swiper-pagination-bottom, 8px);
+  bottom: var(--swiper-pagination-bottom, auto);
   top: var(--swiper-pagination-top, auto);
   left: 0;
   width: 100%
