@@ -1,0 +1,231 @@
+
+.breadscrumb{
+  position: relative;
+  width: 1150px;
+  margin: 0 auto;
+}
+.app-bread{
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+  border-bottom: 1px solid #6c757d;
+}
+.app-bread a{
+  text-decoration: none;
+  margin: 5px;
+}
+.app-bread .parent{
+  color: #dc3545;
+}
+.app-arrow{
+  font-size: 14px;
+}
+.app-bread .app-arrow, .app-current{
+  color: #6c757d;
+}
+section{
+  position: relative;
+  width: 1150px;
+  margin: 0 auto;
+  z-index: 10;
+  top: 130px;
+  padding-bottom: 130px;
+}
+.container-content{
+  position: relative;
+  width: 100%;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar{
+  position: relative;
+  width: 250px;
+  height: auto;
+  top: 0;
+}
+.box-sidebar{
+  position: relative;
+  width: 250px;
+}
+.box-content h3{
+  padding-bottom: 20px;
+  font-size: 23px;
+  font-weight: 500;
+}
+.sidebar ul li{
+  list-style: none;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(243,243,243);
+}
+.sidebar ul li:hover{
+  background-color: rgb(198, 198, 198);
+  cursor: pointer;
+}
+.sidebar ul .active{
+  background-color: rgb(204,0,0);
+}
+.sidebar ul .active:hover{
+  background-color: rgb(204,0,0);
+}
+.sidebar ul .active a{
+  color: #fff;
+}
+.sidebar ul li a{
+  text-decoration: none;
+  color: black;
+  margin-left: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.box-content{
+  position: relative;
+  width: calc(100% - 260px);
+}
+.container-content .box-content .content{
+  position: relative;
+  width: 100%;
+  display: grid;
+  column-gap: 30px;
+  row-gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 
+      "aa aa bb"
+      "aa aa cc"
+      "dd ee ff"
+      "gg hh ii"
+  ;
+  margin-bottom: 30px;
+}
+.container-content .content .new-container{
+  position: relative;
+  grid-area: aa;
+  border: 1px solid #c7c7c7;
+  padding: 0px 15px 50px;
+}
+.content .new-container:hover{
+  border: 1px solid rgb(204,0,0);
+}
+.content .new-container:hover .new-read{
+  background: rgb(204,0,0);
+}
+.new-container .img-container{
+  position: relative;
+  width: 100%;
+}
+.img-container img{
+  width: 100%;
+  object-fit: cover;
+}
+.new-container .date{
+  color: #aaaaaa;
+}
+.new-container .new-read, .item-container .new-read{
+  position: absolute;
+  background: #333;
+  color: #fff;
+  padding: 5px 30px;
+  font-size: 14px;
+  right: -2px;
+  bottom: -2px;
+  cursor: pointer;
+}
+.new-container .text-new-container{
+  font-size: 19px;
+  font-weight: 500;
+}
+.content .item-container{
+  position: relative;
+  width: 100%;
+  border: 1px solid #c7c7c7;
+  padding: 5px 5px 35px;
+}
+.box-content .content .item-container:hover{
+  border: 1px solid rgb(204,0,0);
+  cursor: pointer;
+}
+.box-content .content .item-container:hover .new-read{
+  background: rgb(204,0,0);
+  cursor: pointer;
+}
+.item-container .date{
+  color: #aaaaaa;
+  font-size: 13px;
+}
+.item-container .text{
+  display: block;
+  display: -webkit-box;
+  height: 20px;
+  font-size: 15px;
+  line-height: 1.3;
+  -webkit-line-clamp: 1;  /* số dòng hiển thị */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+}
+.content-content .item1{
+  grid-area: bb;
+  width: 100%;
+}
+.content-content .item2{
+  grid-area: cc;
+  width: 100%;
+}
+.container-content .item3{
+  grid-area: dd;
+}
+.container-content .item4{
+  grid-area: ee;
+}
+.container-content .item5{
+  grid-area: ff;
+}
+.container-content .item6{
+  grid-area: gg;
+}
+.container-content .item7{
+  grid-area: hh;
+}
+.container-content .item8{
+  grid-area: ii;
+}
+.item-container .img-item{
+  /* width: 100%; */
+  position: relative;
+}
+.img-item img{
+  width: 100%;
+}
+.box-show-item{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.show-item{
+  display: flex;
+}
+.show-item select{
+  width: 50px;
+  padding: 5px;
+  margin: 0px 10px;
+}
+.page-item button{
+  padding: 5px 10px;
+  font-size: 16px;
+  background: none;
+  outline: none;
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.page-item .active{
+  background: #dc3545;
+  color: #fff;
+  border: none;
+}
