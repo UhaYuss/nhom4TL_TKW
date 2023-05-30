@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/icon/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Squada+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/head-footer.css">
+    <!-- contact -->
+    <link rel="stylesheet" href="./css/contact.css">
+    <script src="./js/contact.js" defer></script>
+    <title>Kết nối với chúng tôi</title>
+</head>
+<body>
+    <div id="wraper">
+        <header>
+            <div class="inner-header">
+                <span href="./index.html" id="logo">FTL Motors</span>
+                <nav>
+                    <ul id="main-menu">
+                        <li><a href="./index.html">Trang chủ</a></li>
+                        <li><a href="./contact.html">Kết nối với chúng tôi</a></li>
+                        <li><a href="./product.html">Sản phẩm</a></li>
+                        <li><a href="./general.html" title="Tin tức">Tin tức</a>
+                            <ul class="sub-menu">
+                                <li><a href="">Tin tức chung</a></li>
+                                <li><a href="">Tin xe máy</a></li>
+                                <li><a href="">Tin khác</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./contact.html"title="Liên hệ">Liên hệ</a>
+                            <ul class="sub-menu">
+                                <li><a href="./index.html"><i class="fa-solid fa-house"></i>FTL motor</a></li>
+                                <li><a href=""><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+                                <li><a href=""><i class="fa-brands fa-square-instagram"></i>Instagram</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <div class="banner swiper mySwiper">
+        <div class="container-banner">
+            <div class="list-banner swiper-wrapper">
+                <div class="item-banner swiper-slide"><img src="./img/banner/banner_1.jpg" alt="banner"></div>
+                <div class="item-banner swiper-slide"><img src="./img/banner/banner_2.jpg" alt="banner"></div>
+                <div class="item-banner swiper-slide"><img src="./img/banner/rebel_banner.jpg" alt="banner"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <section>
+            <div class="breadscrumb">
+                <div class="app-bread">
+                    <a href="./index.html" class="parent">Trang chủ</a>
+                    <div class="app-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+                    <a href="./contact.html" class="app-current">Kết nối với chúng tôi</a>
+                </div>
+                <h1>Thông tin liên hệ</h1>
+            </div>
+            <div class="set-index">
+                <div class="set-index-card">
+                    <div class="card">
+                        <h3>Nhóm trưởng</h3>
+                        <p class="card-text">Lê Hoàng Quân</p>
+                        <p>
+                            MSSV: 2001216076
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>Thành viên</h3>
+                        <p class="card-text">La Khả Văn</p>
+                        <p>
+                            MSSV: 2001216303
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>Thành viên</h3>
+                        <p class="card-text">Nguyễn Tuân</p>
+                        <p>
+                            MSSV: 2001216278
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="./img/banner/background-contact.png" alt="Image description" class="img-fluid">
+                </div>
+                <div class="col">
+                    <form id="contact-form" method="post">
+                        <div class="col-input">
+                            <div class="form-group">
+                                <label for="full-name">Họ và Tên *</label>
+                                <input type="text" class="form-control" id="full-name" name="full-name" required placeholder="Nhập họ và tên">
+                            </div>
+                            <div class="form-group">
+                                <label for="gender">Giới Tính</label>
+                                <select class="form-control" id="gender" name="gender">
+                                    <option value="">Giới tính</option>
+                                    <option value="male">Nam</option>
+                                    <option value="female">Nữ</option>
+                                    <option value="other">Khác</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-input">
+                            <div class="form-group">
+                                <label for="phone-number">Số Điện Thoại *</label>
+                                <input type="tel" class="form-control" id="phone-number" name="phone-number" required placeholder="Số điện thoại">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Địa Chỉ Email *</label>
+                                <input type="email" class="form-control" id="email" name="email" required placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-input">
+                            <div class="form-group">
+                                <label for="address">Địa Chỉ *</label>
+                                <input type="text" class="form-control" id="address" name="address" required placeholder="Địa chỉ">
+                            </div>
+                            <div class="form-group ">
+                                <label for="province">Tỉnh thành phố *</label>
+                                <select class="form-control" id="province" name="province" required>
+                                    <option value="TP. Hồ Chí Minh">TP. Hồ Chí Minh</option>
+                                    <option value="Hà Nội">Hà Nội</option>
+                                    <option value="An Giang">An Giang</option>
+                                    <option value="Bà Rịa-Vũng Tàu">Bà Rịa-Vũng Tàu</option>
+                                    <option value="Bắc Kạn">Bắc Kạn</option>
+                                    <option value="Bắc Giang">Bắc Giang</option>
+                                    <option value="Bạc Liêu">Bạc Liêu</option>
+                                    <option value="Bắc Ninh">Bắc Ninh</option>
+                                    <option value="Bến Tre">Bến Tre</option>
+                                    <option value="Bình Định">Bình Định</option>
+                                    <option value="Bình Dương">Bình Dương</option>
+                                    <option value="Bình Phước">Bình Phước</option>
+                                    <option value="Bình Thuận">Bình Thuận</option>
+                                    <option value="Cà Mau">Cà Mau</option>
+                                    <option value="Cần Thơ">Cần Thơ</option>
+                                    <option value="Cao Bằng">Cao Bằng</option>
+                                    <option value="Đà Nẵng">Đà Nẵng</option>
+                                    <option value="Đắk Lắk">Đắk Lắk</option>
+                                    <option value="Đắk Nông">Đắk Nông</option>
+                                    <option value="Điện Biên">Điện Biên</option>
+                                    <option value="Đồng Nai">Đồng Nai</option>
+                                    <option value="Đồng Tháp">Đồng Tháp</option>
+                                    <option value="Gia Lai">Gia Lai</option>
+                                    <option value="Hà Giang">Hà Giang</option>
+                                    <option value="Hậu Giang">Hậu Giang</option>
+                                    <option value="Hà Nam">Hà Nam</option>
+                                    <option value="Hà Tĩnh">Hà Tĩnh</option>
+                                    <option value="Hải Dương">Hải Dương</option>
+                                    <option value="Hải Phòng">Hải Phòng</option>
+                                    <option value="Hòa Bình">Hòa Bình</option>
+                                    <option value="Hưng Yên">Hưng Yên</option>
+                                    <option value="Khánh Hòa">Khánh Hòa</option>
+                                    <option value="Kiên Giang">Kiên Giang</option>
+                                    <option value="Kon Tum">Kon Tum</option>
+                                    <option value="Lai Châu">Lai Châu</option>
+                                    <option value="Lâm Đồng">Lâm Đồng</option>
+                                    <option value="Lạng Sơn">Lạng Sơn</option>
+                                    <option value="Lào Cai">Lào Cai</option>
+                                    <option value="Long An">Long An</option>
+                                    <option value="Nam Định">Nam Định</option>
+                                    <option value="Nghệ An">Nghệ An</option>
+                                    <option value="Ninh Bình">Ninh Bình</option>
+                                    <option value="Ninh Thuận">Ninh Thuận</option>
+                                    <option value="Phú Thọ">Phú Thọ</option>
+                                    <option value="Quảng Bình">Quảng Bình</option>
+                                    <option value="Quảng Nam">Quảng Nam</option>
+                                    <option value="Quảng Ngãi">Quảng Ngãi</option>
+                                    <option value="Quảng Ninh">Quảng Ninh</option>
+                                    <option value="Quảng Trị">Quảng Trị</option>
+                                    <option value="Sóc Trăng">Sóc Trăng</option>
+                                    <option value="Sơn La">Sơn La</option>
+                                    <option value="Thừa Thiên Huế">Thừa Thiên Huế</option>
+                                    <option value="Tây Ninh">Tây Ninh</option>
+                                    <option value="Phú Yên">Phú Yên</option>
+                                    <option value="Thái Bình">Thái Bình</option>
+                                    <option value="Thái Nguyên">Thái Nguyên</option>
+                                    <option value="Thanh Hóa">Thanh Hóa</option>
+                                    <option value="Tiền Giang">Tiền Giang</option>
+                                    <option value="Trà Vinh">Trà Vinh</option>
+                                    <option value="Tuyên Quang">Tuyên Quang</option>
+                                    <option value="Vĩnh Long">Vĩnh Long</option>
+                                    <option value="Vĩnh Phúc">Vĩnh Phúc</option>
+                                    <option value="Yên Bái">Yên Bái</option>
+                                </select>
+                            </div>
+                        </div>                        
+                        <div class="form-type">
+                            <label for="vehicle-type">Loại xe</label>
+                            <select class="form-control" id="vehicle-type" name="vehicle-type">
+                                <option value="">Loại xe</option>
+                                <option value="motorcycle">Xe Máy</option>
+                                <option value="car">Ô tô</option>
+                            </select>
+                        </div>
+                        <div class="form-content">
+                            <label for="message">Thông tin thêm </label>
+                            <textarea class="form-control" id="message" name="message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Gửi câu hỏi</button>
+                    </form>
+                </div>
+            </div>
+    </section>
+    <div id="backtop">
+      <i class="fa-solid fa-arrow-up fa-bounce" style="color: #ffffff;"></i>
+  </div>
+  <div id="backtop">
+    <i class="fa-solid fa-arrow-up fa-bounce" style="color: #ffffff;"></i>
+</div>
+<div class="footer">
+    <div class="footer-nav">
+        <div class="footer-nav-col">
+            <p class="text-form"> Công ty TKW Gruop 4 </p>
+            <p class="text-content">
+                Số GCNĐKDN: 2500150543 <br>
+                Đăng ký lần đầu: Ngày 5/5/2023 <br>
+                Cơ quan cấp: Phòng A208 <br> Trường Công Nghiệp Thực Phẩm (HUFI)<br> Ho Chi Minh <br>
+                Địa chỉ: 140 Lê Trọng Tấn,P.Tây Thạnh <br> Q.Tân Phú, Ho Chi Minh Việt Nam <br>
+            </p>
+            <img class="copyright" src="./img/banner/copyright.png" alt="copyright">
+        </div>
+        <div class="footer-nav-col">
+            <form class="form" action="">
+                <p class="text-form"> Đăng ký nhận tin </p>
+                <input type="text" name="hoten" id="" placeholder="Họ tên"> <br>
+                <input type="email" name="email" id="" placeholder="Email"> <br>
+                <input type="text" name="sdt" id="" placeholder="SĐT"> <br>
+                <div class="select">
+                    <select name="format" id="format">
+                        <option selected disabled>Đăng ký nhận tin</option>
+                        <option value="news">Tin tức xe máy</option>
+                        <option value="sales">Khuyến mãi</option>
+                        <option value="more">Tin tức khác</option>
+                    </select> <br>
+                </div>
+                <input type="submit" value="Đăng ký">
+            </form>
+        </div>
+        <div class="footer-nav-col">
+            <p class="text-form">ĐƯỜNG DÂY NÓNG </p>
+            <p class="text-content">
+                Hotline: <a href="#" class="info">1800 8001</a> (Miễn phí cho tất cả thuê bao) <br>
+                Email: <a href="#" class="info">lakhavan@gmail.com.vn</a>
+            </p>
+        </div>
+    </div>
+    <div class="end-footer">
+        &copy; 2019 Copyright by TKW Gruop 4 | <a href="" class="copy-right">Terms and Conditions</a> | <a href=""
+            class="copy-right">Privacy Policy</a> | <a href="" class="copy-right">Cookie Policy</a>
+    </div>
+</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./js/head-footer.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.2/swiper-bundle.min.js"></script>
+<script src="./js/banner.js"></script>
+</html>
