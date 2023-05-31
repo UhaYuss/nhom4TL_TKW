@@ -11,7 +11,7 @@ html {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  /* text-size-adjust: 100%; */
+  overflow-x: hidden;
 }
 /*-----------------------------------*/
 /*------------REUSED-----------------*/
@@ -117,16 +117,26 @@ ul#main-menu a{
 /*-----------------------------------*/
 /*------------Sticky-----------------*/
 /*-----------------------------------*/
-header.sticky{
+header.sticky {
   background-color: #d01818;
   padding: 15px 0px;
 }
+
 header.sticky #logo,
 header.sticky #main-menu li a {
-    color: #fff;
+  color: #fff;
 }
-header.sticky ul.sub-menu li{
-  background-color: #ff1000;;
+
+header.sticky ul.sub-menu li {
+  background-color: white;
+}
+
+header.sticky ul.sub-menu li a {
+  color: #000000 !important;
+}
+
+header.sticky ul.sub-menu li:hover a:hover {
+  color: white !important;
 }
 
 /*-----------------------------------*/
